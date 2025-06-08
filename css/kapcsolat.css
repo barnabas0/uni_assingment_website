@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+.head {
+  grid-area: 1 / 1 / 1 / 2;
+  text-align: center;
+  border: 3px solid black;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+
+.div1 {
+  grid-area: 1 / 1 / 2 / 2;
+  text-align: left;
+  border: 2px solid black;
+}
+
+.div2 {
+  grid-area: 1 / 2 / 2 / 3;
+  text-align: center;
+  border: 2px solid black;
+}
+
+.parent-div1 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.div3 {
+  grid-area: 1 / 1 / 2 / 2;
+  text-align: center;
+}
+
+.div4 {
+  grid-area: 1 / 2 / 2 / 3;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 1.2em;
+}
+
+.icon {
+  height: 100px;
+  width: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.5em;
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  width: 70%;
+  margin: auto;
+  background-image: radial-gradient(circle at center center, #bc48ff, #bc48ff), repeating-radial-gradient(circle at center center, #bc48ff, #e3e3f6, 10px, transparent 20px, transparent 10px);
+  background-blend-mode: multiply;
+  background-color: #bc48ff;
+}
+
+.form-parent {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin: auto;
+  width: 100%;
+}
+
+.form-div1 {
+  grid-area: 1 / 1 / 2 / 2;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+.form-div2 {
+  grid-area: 1 / 2 / 2 / 3;
+  margin-left: 25%;
+  margin-top: 1%;
+}
+
+#date {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#choice {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#v5 {
+  margin-bottom: 3%;
+}
+
+textarea {
+  margin-top: 2%;
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+input[type=checkmark]{
+  height: 1.2em;
+  width: 1.2em;
+}
+
+.button-parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.button-div1 {
+  grid-area: 1 / 1 / 2 / 2;
+  text-align: center;
+}
+
+.button-div2 {
+  grid-area: 1 / 2 / 2 / 3;
+  text-align: center;
+}
+
+input[type=submit],
+input[type=reset] {
+  font-size: 1em;
+  cursor: pointer;
+  background-color: #0B6E4F;
+  color: white;
+  padding: 16px 32px;
+}
+
+input[type=radio] {
+  height: 1.2em;
+  width: 1.2em;
+}
+
+label {
+  color: white;
+}
+
+form p {
+  color: white;
+}
+
+aside {
+  font-size: 1.2em;
+  text-align: center;
+  margin: 2%;
+}
+
+.mail {
+  color: blue;
+}
+
+.mail {
+  color: purple;
+}

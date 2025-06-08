@@ -1,0 +1,46 @@
+video {
+    display: none;
+}
+
+#kezdolap-table{
+    display: none;
+}
+
+#aside-div aside {
+    min-width: 100%;
+    max-width: 100%;
+    width: 100%;
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+    border: #080404 1px solid;
+    page-break-after: always;
+}
+
+header {
+    display: none;
+}
+
+h1, h2, h3, a {
+    text-shadow: none;
+    color: black;
+}
+
+img {
+    width: 30%;
+    height: auto;
+}
+
+.next {
+    display: none;
+}
+
+input[type=text], input[type=email] {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+caption,summary,td,th{
+    font-size: 1em;
+}
