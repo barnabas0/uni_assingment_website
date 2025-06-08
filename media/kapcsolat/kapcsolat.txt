@@ -1,0 +1,13 @@
+Menüsor: Kezdőlap, Általános információ, Szolgáltatásunk, Kapcsolat
+Elérhetőség
+☏+36306007638	✉senyizsolt1@gmail.com
+Űrlap:
+Mondja el véleményét a szolgáltatásunkról!
+Összességében mennyire volt elégedett?
+-választókapcsoló (5-ös skála)-
+Mennyire volt elégedett a szolgáltatás gyorsaságával (a megkereséstől számítva)?
+-választókapcsoló (5-ös skála)-
+Írja le pár mondatban a véleményét összességében!
+-szövegterület-
+Ajánlaná szolgáltatásunkat barátainak/ismerőseinek? -jelölőnégyzet-
+Gomb: Beküldés, Gomb: Törlés
