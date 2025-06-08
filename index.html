@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Sényi Barnabás">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/default.css" rel="stylesheet">
+    <link href="css/print.css" rel="stylesheet" media="print">
+    <title>Kezdőlap - VízlágyítóVilág</title>
+    <link rel="icon" href="media/kezdolap/logo.png">
+</head>
+
+<body>
+    <nav class="out-of-bounds">
+        <a href="#content">Ugrás a tartalomra</a>
+    </nav>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="media/kezdolap/logo.png" alt="Logó">
+            </div>
+            <div class="topnav" id="myTopnav">
+                <a class="hover-underline-animation" href="index.html">Kezdőlap</a>
+                <a class="hover-underline-animation" href="altalanos.html">Általános információk</a>
+                <a class="hover-underline-animation" href="szolgaltatas.html">Szolgáltatásunk</a>
+                <a class="hover-underline-animation" href="kapcsolat.html">Kapcsolat</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+        </div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+    </header>
+    <main id="main">
+        <div class="seven">
+            <h1>Kezdőlap</h1>
+        </div>
+        <p class="bevezeto">
+            Rendszeresen vízkővel találkozik otthonában? A poharait a mosogatógép sem varázsolja cseppmentessé?
+            Fürdés után bőrén kellemetlen érzést tapasztal?
+        </p>
+
+        <section>
+            <h2>Van megoldás!</h2>
+            <p class="bevezeto">
+                A vízlágyító készülékek olyan eszközök, amelyek segítségével a kemény víz által okozott problémákat
+                lehet csökkenteni vagy teljesen megszüntetni. A vízlágyító készülékek javítják a víz minőségét és
+                hosszabb élettartamot biztosítanak a háztartási gépeknek és a csöveknek. Ezen a honlapon részletes
+                információkat találhat a vízlágyító készülékek működéséről, előnyeiről, illetve segítséget kaphat a
+                megfelelő készülék kiválasztásához.
+            </p>
+        </section>
+
+        <div class="parent">
+            <div class="div1">
+                <img src="media/kezdolap/csap.png" alt="Fekete színű csapből erősen folyik a víz">
+
+            </div>
+            <div class="div2">
+                <img src="media/kezdolap/szerelo.jpg"
+                    alt="Egy ember karja látszódik, mely egy fogót fog, amivel épp meghúz valamit a csövön">
+
+            </div>
+            <div class="div3">
+                <img src="media/kezdolap/kapcsolat.png"
+                    alt="Egy ember kezeit látjuk, az egyikkel tart egy telefont, a másikkal a telefon kijelzője fele nyúl">
+
+            </div>
+            <div class="div4">
+                <h1>Általános információk</h1>
+                <p>
+                    Többet szeretne megtudni a vízlágyítók működéséről és előnyeiről?
+                    Kíváncsi, hogy milyen formában nyilvánulnak meg a készülék használatainak előnyei?
+                    Érdekli, hogy milyen készülék megfelelő az Ön otthonába, valamint mik az előfeltételei a
+                    beépítésnek?
+                    Kattintson az alábbi gombra részletes információért!
+                </p>
+
+            </div>
+            <div class="div5">
+                <h1>Szolgáltatásunk</h1>
+                <p>
+                    Felkeltette érdeklődését, és gondolkozik vízlágyító beépítésén a saját otthonába?
+                    Szakképzett, alkalmas embert keres a munkára?
+                    Az alábbi gombra kattintva jobban megismerhet minket és megtudhatja, hogy miért érdemes minket
+                    választani.
+                </p>
+
+            </div>
+            <div class="div6">
+                <h1>Kapcsolat</h1>
+                <p>
+                    Ha bizalmat szavazott nekünk és szeretne búcsút mondani a vízkőnek az otthonában, akkor az alábbi
+                    gombra kattintva megtalálhatja elérhetőségünket.
+                    Emellett talál egy visszajelző űrlapot az oldalon, melyet kérem töltsön ki, ammennyiben már igénybe
+                    vette szolgáltatásunkat!
+                </p>
+
+            </div>
+            <div class="div7">
+                <a href="altalanos.html" class="btn">Általános információk</a>
+            </div>
+            <div class="div8">
+                <a href="szolgaltatas.html" class="btn">Szolgáltatásunk</a>
+            </div>
+            <div class="div9">
+                <a href="kapcsolat.html" class="btn"> Kapcsolat</a>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <h1 class="foot-h1">VízlágyítóVilág</h1>
+
+        <p>Copyright 2023, Sényi Barnabás</p>
+
+    </footer>
+</body>
+
+</html>

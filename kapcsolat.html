@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Sényi Barnabás">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/default.css" rel="stylesheet">
+  <link href="css/kapcsolat.css" rel="stylesheet">
+  <link href="css/print.css" rel="stylesheet" media="print">
+  <title>Kapcsolat - Vízlágyító</title>
+  <link rel="icon" href="media/kezdolap/logo.png">
+  <script src="https://cdn.lordicon.com/lordicon.js"></script>
+</head>
+
+<body>
+  <nav class="out-of-bounds">
+    <a href="#content">Ugrás a tartalomra</a>
+  </nav>
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <img src="media/kezdolap/logo.png" alt="Logó">
+      </div>
+      <div class="topnav" id="myTopnav">
+        <a class="hover-underline-animation" href="index.html">Kezdőlap</a>
+        <a class="hover-underline-animation" href="altalanos.html">Általános információk</a>
+        <a class="hover-underline-animation" href="szolgaltatas.html">Szolgáltatásunk</a>
+        <a class="hover-underline-animation" href="kapcsolat.html">Kapcsolat</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+    </div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </header>
+  <main id="main">
+    <div class="seven">
+      <h1>Kapcsolat</h1>
+    </div>
+    <div class="head">Elérhetőség</div>
+    <div class="parent">
+      <div class="div1">
+        <div class="parent-div1">
+          <div class="div3">
+            <lord-icon src="https://cdn.lordicon.com/srsgifqc.json" trigger="in" delay="100" state="in-phone 2"
+              colors="primary:#000000" style="width:100px;height:100px">
+            </lord-icon>
+          </div>
+          <div class="div4">
+            +36308392192
+          </div>
+        </div>
+      </div>
+      <div class="div2">
+        <div class="parent-div1">
+          <div class="div3">
+            <lord-icon src="https://cdn.lordicon.com/xtzvywzp.json" trigger="in" delay="100" state="in-email"
+              colors="primary:#000000" style="width:100px;height:100px">
+            </lord-icon>
+          </div>
+          <div class="div4">
+            <a href="mailto:senyibarnabas5@gmail.com" target="_blank" class="mail">senyibarnabas5@gmail.com</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h1>Visszajelző űrlap</h1>
+    <aside>Mondja el véleményét a szolgáltatásunkról!</aside>
+    <form action="mailto:senya.snbs@gmail.com" method="POST" enctype="text/plain">
+      <fieldset>
+        <div class="form-parent">
+          <div class="form-div1">
+            <label for="date">
+              Mikor vette igénybe a szolgáltatásunkat?
+            </label><br>
+            <input type="date" name="datum" id="date" size="100">
+          </div>
+          <div class="form-div2">
+            <label for="choice">
+              Melyik szolgáltatásunkat vette igénybe?
+            </label><br>
+            <select name="choice" id="choice">
+              <option>Válasszon az alábbiak közül</option>
+              <option value="beepit">Vízlágyító beépítés</option>
+              <option value="beuzemel">Vízlágyító beüzemelés</option>
+              <option value="szereles">Vízvezetékszerelés</option>
+            </select>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset>
+        <p>Összeségében mennyire volt elégedett?</p>
+        <input type="radio" name="ossz" id="v1" value="5">
+        <label for="v1">
+          Teljesen elégedett
+        </label>
+        <input type="radio" name="ossz" id="v2" value="4">
+        <label for="v2">
+          Elégedett
+        </label>
+        <input type="radio" name="ossz" id="v3" value="3">
+        <label for="v3">
+          Semleges
+        </label>
+        <input type="radio" name="ossz" id="v4" value="2">
+        <label for="v4">
+          Elégedetlen
+        </label>
+        <input type="radio" name="ossz" id="v5" value="1">
+        <label for="v5">
+          Nagyon elégedetlen
+        </label>
+        <p>Mennyire volt elégedett a szolgáltatás gyorsaságával (a megkereséstől számítva)?</p>
+        <input type="radio" name="gyors" id="w1" value="5">
+        <label for="w1">
+          Teljesen elégedett
+        </label>
+        <input type="radio" name="gyors" id="w2" value="4">
+        <label for="w2">
+          Elégedett
+        </label>
+        <input type="radio" name="gyors" id="w3" value="3">
+        <label for="w3">
+          Semleges
+        </label>
+        <input type="radio" name="gyors" id="w4" value="2">
+        <label for="w4">
+          Elégedetlen
+        </label>
+        <input type="radio" name="gyors" id="w5" value="1">
+        <label for="w5">
+          Nagyon elégedetlen
+        </label>
+      </fieldset>
+      <fieldset>
+        <label for="velemeny">
+          Összegezze pár mondatban a véleményét!
+        </label><br>
+        <textarea name="osszegzes" id="velemeny" cols="60" rows="10" placeholder="Max 500 karakter"
+          maxlength="500"></textarea>
+      </fieldset>
+      <fieldset>
+        <label class="container" for="check">
+          Ajánlaná szolgáltatásunkat barátainak/ismerőseinek?
+        </label>
+        <input type="checkbox" checked="checked" name="ajanl" id="check">
+          <div class="checkmark1"></div>
+      </fieldset>
+      <fieldset>
+        <p>A termék vagy szolgáltatás mely aspektusával volt a legelégedettebb?</p>
+        <input type="radio" name="elegedett" id="x1" value="minoseg">
+        <label for="x1">
+          Minőség
+        </label>
+        <input type="radio" name="elegedett" id="x2" value="ar">
+        <label for="x2">
+          Ár
+        </label>
+        <input type="radio" name="elegedett" id="x3" value="ugyfelszolgalat">
+        <label for="x3">
+          Ügyfélszolgálat
+        </label>
+        <input type="radio" name="elegedett" id="x4" value="tapasztalat">
+        <label for="x4">
+          Beépítési vagy első használati tapasztalat
+        </label>
+        <p>A termék vagy szolgáltatás mely aspektusával volt a legelégedettlenebb?</p>
+        <input type="radio" name="elégedetlen" id="y1" value="minoseg">
+        <label for="y1">
+          Minőség
+        </label>
+        <input type="radio" name="elégedetlen" id="y2" value="ar">
+        <label for="y2">
+          Ár
+        </label>
+        <input type="radio" name="elégedetlen" id="y3" value="ugyfelszolgalat">
+        <label for="y3">
+          Ügyfélszolgálat
+        </label>
+        <input type="radio" name="elégedetlen" id="y4" value="tapasztalat">
+        <label for="y4">
+          Beépítési vagy első használati tapasztalat
+        </label><br>
+        <input type="radio" name="elégedetlen" id="y5" value="nem volt">
+        <label for="y5">
+          Egyéb
+        </label>
+        <input type="text" name="egyeb" id="egyeb" placeholder="Irja le pár szóban!" maxlength="50">
+      </fieldset>
+      <fieldset>
+        <div class="button-parent">
+          <div class="button-div1"><input type="reset" id="reset"></div>
+          <div class="button-div2"><input type="submit" id="submit"></div>
+        </div>
+      </fieldset>
+    </form>
+  </main>
+  <footer>
+    <h1 class="foot-h1">VízlágyítóVilág</h1>
+
+    <p>Copyright 2023, Sényi Barnabás</p>
+
+  </footer>
+</body>
+
+</html>
